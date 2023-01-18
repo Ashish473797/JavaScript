@@ -19,3 +19,8 @@ console.log(typeof(isLogedInBool), isLogedInBool)
 // 0        -> type change to boolean and value is false
 // ""       -> type change to boolean and value is false
 // "abc"    -> type change to boolean and value is true
+
+// *******************tricky operations but not recommended*********************
+
+console.log("1" + 2 + 2)
+console.log( 2 + 2 + "1")
